@@ -3,14 +3,29 @@
 namespace Blog;
 
 use Zend\Router\Http\Literal;
+use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
 return [
     'router' => [
         'routes' => [
-            'blog' => [
-                'type' => Literal::class,
+//            'blog' => [
+//                'type' => Literal::class,
+//                'options' => [
+//                    'route'    => '/blog',
+//                    'defaults' => [
+//                        'controller' => Controller\BlogController::class,
+//                        'action'     => 'index',
+//                    ],
+//                ],
+//            ],
+            'post' => [
+                'type' => Segment::class,
                 'options' => [
-                    'route'    => '/blog',
+                    'route'    => '/blog[/:action[/:id]]',
+                    'constraints' => [
+                        'action' => '[a-zA-z][a-zA-Z0-9_-]*',
+                        'id' => '[0-9]+'
+                    ],
                     'defaults' => [
                         'controller' => Controller\BlogController::class,
                         'action'     => 'index',
@@ -21,7 +36,7 @@ return [
     ],
     'controllers' => [
         'factories' => [
-            Controller\BlogController::class => InvokableFactory::class,
+            #Controller\BlogController::class => InvokableFactory::class,
         ],
     ],
     'view_manager' => [
