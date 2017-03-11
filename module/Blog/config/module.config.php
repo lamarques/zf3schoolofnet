@@ -5,7 +5,7 @@ namespace Blog;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
-    'controller' => [
+    'controllers' => [
         'factories' => [
             Controller\BlogController::class=>InvokableFactory::class
         ]
