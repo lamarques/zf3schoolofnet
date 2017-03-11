@@ -2,31 +2,31 @@
 
 namespace Blog;
 
+use Zend\Router\Http\Literal;
 use Zend\ServiceManager\Factory\InvokableFactory;
-
 return [
-    'controllers' => [
-        'factories' => [
-            Controller\BlogController::class=>InvokableFactory::class
-        ]
-    ],
     'router' => [
         'routes' => [
             'blog' => [
-                'type' => 'literal',
+                'type' => Literal::class,
                 'options' => [
-                    'route' => '/blog',
+                    'route'    => '/blog',
                     'defaults' => [
                         'controller' => Controller\BlogController::class,
-                        'action' => 'index'
-                    ]
-                ]
-            ]
-        ]
+                        'action'     => 'index',
+                    ],
+                ],
+            ],
+        ],
+    ],
+    'controllers' => [
+        'factories' => [
+            Controller\BlogController::class => InvokableFactory::class,
+        ],
     ],
     'view_manager' => [
         'template_path_stack' => [
-            'blog' => __DIR__ . "/../view"
-        ]
-    ]
+            __DIR__ . '/../view',
+        ],
+    ],
 ];
