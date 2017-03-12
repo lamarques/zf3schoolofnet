@@ -8,26 +8,39 @@ use Zend\ServiceManager\Factory\InvokableFactory;
 return [
     'router' => [
         'routes' => [
-//            'blog' => [
-//                'type' => Literal::class,
-//                'options' => [
-//                    'route'    => '/blog',
-//                    'defaults' => [
-//                        'controller' => Controller\BlogController::class,
-//                        'action'     => 'index',
-//                    ],
-//                ],
-//            ],
-            'post' => [
+            'admin-blog' => [
+                'type' => Literal::class,
+                'options' => [
+                    'route' => '/admin'
+                ],
+                'may_terminate' => false,
+                'child_routes' => [
+                    'post' => [
+                        'type' => Segment::class,
+                        'options' => [
+                            'route'    => '/blog[/:action[/:id]]',
+                            'constraints' => [
+                                'action' => '[a-zA-z][a-zA-Z0-9_-]*',
+                                'id' => '[0-9]+'
+                            ],
+                            'defaults' => [
+                                'controller' => Controller\BlogController::class,
+                                'action'     => 'index',
+                            ],
+                        ],
+                    ],
+                ]
+            ],
+            'site-post' => [
                 'type' => Segment::class,
                 'options' => [
-                    'route'    => '/blog[/:action[/:id]]',
+                    'route'    => '/post[/:action[/:id]]',
                     'constraints' => [
                         'action' => '[a-zA-z][a-zA-Z0-9_-]*',
                         'id' => '[0-9]+'
                     ],
                     'defaults' => [
-                        'controller' => Controller\BlogController::class,
+                        'controller' => Controller\PostController::class,
                         'action'     => 'index',
                     ],
                 ],

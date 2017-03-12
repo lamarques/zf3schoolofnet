@@ -9,10 +9,15 @@ use Zend\Db\TableGateway\TableGatewayInterface;
 class PostTable
 {
     private $tableGateway;
+    /**
+     * @var CommentTable
+     */
+    private $commentTable;
 
-    public function __construct(TableGatewayInterface $tableGateway)
+    public function __construct(TableGatewayInterface $tableGateway, CommentTable $commentTable)
     {
         $this->tableGateway = $tableGateway;
+        $this->commentTable = $commentTable;
     }
 
     public function fetchAll()
@@ -53,6 +58,9 @@ class PostTable
                 'Could not retrieve the row %d', $id
             ));
         }
+
+        $rowsComment = $this->commentTable->fetchAll($row->id);
+        $row->comments = iterator_to_array($rowsComment);
 
         return $row;
     }

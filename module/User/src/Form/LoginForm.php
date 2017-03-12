@@ -1,36 +1,30 @@
 <?php
 
-namespace Blog\Form;
-
+namespace User\Form;
 
 use Zend\Form\Element;
 use Zend\Form\Form;
 
-class PostForm extends Form
+class LoginForm extends Form
 {
 
     public function __construct($name = null, array $options = [])
     {
-        parent::__construct('post');
+        parent::__construct('login');
 
         $this->add([
-            'name' => 'id',
-            'type' => Element\Hidden::class
-        ]);
-
-        $this->add([
-            'name' => 'title',
+            'name' => 'username',
             'type' => Element\Text::class,
             'options' => [
-                'label' => 'Title'
+                'label' => 'Usuário'
             ]
         ]);
 
         $this->add([
-            'name' => 'content',
-            'type' => Element\Textarea::class,
+            'name' => 'password',
+            'type' => Element\Password::class,
             'options' => [
-                'label' => 'Content'
+                'label' => 'Senha'
             ]
         ]);
 
@@ -38,7 +32,7 @@ class PostForm extends Form
             'name' => 'submit',
             'type' => Element\Submit::class,
             'attributes' => [
-                'value' => 'Go',
+                'value' => 'Entrar',
                 'id' => 'submitbutton'
             ]
         ]);
