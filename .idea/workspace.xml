@@ -2,45 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2e3c0a-d0e9-46e1-9020-77eec1c18b60" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/Factory/BlogControllerFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/PostController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Form/CommentForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Form/Factory/PostFormFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/InputFilter/PostInputFilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Model/Comment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Model/CommentTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Model/Factory/CommentTableFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Model/Factory/CommentTableGatewayFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Model/Factory/PostTableFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Model/Factory/PostTableGatewayFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/User/config/module.config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/User/src/Controller/Factory/AuthControllerFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/User/src/Form/LoginForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/User/src/Module.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/User/src/Service/Factory/AuthenticationServiceFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/User/view/user/auth/login.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/autoload/doctrine.global.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Fixture/CommentFixture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Fixture/PostFixture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/Blog/src/Form/Factory/CommentFormFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/User/src/Fixture/UserFixture.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Model/Comment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Model/CommentTable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Model/Factory/CommentTableFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Model/Factory/CommentTableGatewayFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Model/Factory/PostTableFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Model/Factory/PostTableGatewayFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Model/Post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module/Blog/src/Model/PostTable.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/blog.db" afterPath="$PROJECT_DIR$/data/blog.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/35638728-9f98-4b14-b94a-f8f3790963bd.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/35638728-9f98-4b14-b94a-f8f3790963bd.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/zf3.iml" afterPath="$PROJECT_DIR$/.idea/zf3.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/autoload/global.php" afterPath="$PROJECT_DIR$/config/autoload/global.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/modules.config.php" afterPath="$PROJECT_DIR$/config/modules.config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/schema.sql" afterPath="$PROJECT_DIR$/data/schema.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" afterPath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/config/module.config.php" afterPath="$PROJECT_DIR$/module/Blog/config/module.config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Form/PostForm.php" afterPath="$PROJECT_DIR$/module/Blog/src/Form/PostForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Model/Post.php" afterPath="$PROJECT_DIR$/module/Blog/src/Model/Post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Model/PostTable.php" afterPath="$PROJECT_DIR$/module/Blog/src/Model/PostTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Controller/Factory/BlogControllerFactory.php" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/Factory/BlogControllerFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Controller/PostController.php" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/PostController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Form/Factory/PostFormFactory.php" afterPath="$PROJECT_DIR$/module/Blog/src/Form/Factory/PostFormFactory.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/src/Module.php" afterPath="$PROJECT_DIR$/module/Blog/src/Module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/view/blog/post/index.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml" afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/User/config/module.config.php" afterPath="$PROJECT_DIR$/module/User/config/module.config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/User/src/Service/Factory/AuthenticationServiceFactory.php" afterPath="$PROJECT_DIR$/module/User/src/Service/Factory/AuthenticationServiceFactory.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,24 +68,85 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="blog.db" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="comments" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/PostController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding>
+                <element signature="e#119#145#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentFormFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/Factory/CommentFormFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="e#37#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Module.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Module.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/post/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="108" lean-forward="false" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostControllerFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -111,55 +167,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Controller/BlogController.php" />
-        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml.php" />
-        <option value="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-        <option value="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager/src/Factory/InvokableFactory.php" />
-        <option value="$PROJECT_DIR$/data/load_data.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/35638728-9f98-4b14-b94a-f8f3790963bd/console.sql" />
-        <option value="$PROJECT_DIR$/config/autoload/global.php" />
-        <option value="$PROJECT_DIR$/config/autoload/local.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Model/Post.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Blog/Model/PostTable.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Model/Factory/PostTableGatewayFactory.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Form/Factory/PostFormFactory.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Controller/Factory/BlogControllerFactory.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Form/PostForm.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/InputFilter/PostInputFilter.php" />
         <option value="$PROJECT_DIR$/module/Users/src/Module.php" />
         <option value="$PROJECT_DIR$/module/Users/config/module.config.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/modules.config.php" />
         <option value="$PROJECT_DIR$/module/User/view/user/auth/logout.phtml" />
-        <option value="$PROJECT_DIR$/module/User/config/module.config.php" />
         <option value="$PROJECT_DIR$/module/User/src/Form/LoginForm.php" />
         <option value="$PROJECT_DIR$/module/User/Service/Factory/AuthenticationServiceFactory.php" />
         <option value="$PROJECT_DIR$/module/User/src/Controller/Factory/BlogControllerFactory.php" />
         <option value="$PROJECT_DIR$/module/User/src/Controller/Factory/AuthControllerFactory.php" />
-        <option value="$PROJECT_DIR$/module/User/src/Service/Factory/AuthenticationServiceFactory.php" />
         <option value="$PROJECT_DIR$/module/User/view/user/auth/login.phtml" />
-        <option value="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
-        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" />
         <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" />
         <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml" />
         <option value="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" />
         <option value="$PROJECT_DIR$/module/User/src/Module.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" />
-        <option value="$PROJECT_DIR$/module/Blog/config/module.config.php" />
-        <option value="$PROJECT_DIR$/module/Blog/view/blog/post/index.phtml" />
         <option value="$PROJECT_DIR$/module/Blog/src/Form/CommentForm.php" />
-        <option value="$PROJECT_DIR$/data/schema.sql" />
         <option value="$PROJECT_DIR$/module/Blog/src/Model/Factory/CommentTableFactory.php" />
-        <option value="$PROJECT_DIR$/module/Blog/src/Module.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Model/CommentTable.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Model/Factory/PostTableFactory.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Model/Post.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Model/PostTable.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Model/Factory/CommentTableGatewayFactory.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Model/Comment.php" />
+        <option value="$PROJECT_DIR$/config/doctrine.local.php" />
+        <option value="$PROJECT_DIR$/data/schema.sql" />
+        <option value="$PROJECT_DIR$/module/User/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Entity/Blog/Entity/Comments.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Entity/Blog/Entity/Comment.php" />
+        <option value="$PROJECT_DIR$/config/autoload/doctrine.local.php" />
+        <option value="$PROJECT_DIR$/config/modules.config.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/module/User/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/Blog/config/module.config.php" />
+        <option value="$PROJECT_DIR$/config/development.config.php" />
+        <option value="$PROJECT_DIR$/module/User/src/Fixture/UserFixture.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Fixture/CommentFixture.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Fixture/PostFixture.php" />
+        <option value="$PROJECT_DIR$/module/User/src/Service/Factory/AuthenticationServiceFactory.php" />
+        <option value="$PROJECT_DIR$/config/autoload/global.php" />
+        <option value="$PROJECT_DIR$/config/autoload/doctrine.global.php" />
+        <option value="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
+        <option value="$PROJECT_DIR$/config/autoload/local.php" />
+        <option value="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Controller/Factory/BlogControllerFactory.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Form/Factory/PostFormFactory.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" />
+        <option value="$PROJECT_DIR$/module/Blog/view/blog/post/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Entity/Comment.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Entity/Post.php" />
         <option value="$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Form/Factory/CommentFormFactory.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Controller/PostController.php" />
+        <option value="$PROJECT_DIR$/module/Blog/src/Module.php" />
       </list>
     </option>
   </component>
@@ -241,10 +299,29 @@
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-orm-module" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-cache" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-paginator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-module" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/codeedu/zendexpr-doctrine-fixture" />
+      <path value="$PROJECT_DIR$/vendor/codeedu/zend-doctrine-fixture" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -264,7 +341,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,9 +354,279 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Factory" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Factory" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,21 +643,26 @@
     <property name="js-jscs-nodeInterpreter" value="D:\arquivos_de_programas\nodejs\node.exe" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Entity" />
+      <recent name="D:\schoolofnet\zf\zf3\module\User\src\Entity" />
+      <recent name="D:\schoolofnet\zf\zf3\config\autoload" />
+      <recent name="D:\schoolofnet\zf\zf3\module\User\src" />
+      <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Form" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Form\Factory" />
+      <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Fixture" />
       <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Model\Factory" />
       <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Model" />
       <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Form" />
-      <recent name="D:\schoolofnet\zf\zf3\module\Blog\view\blog\post" />
-      <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Controller\Factory" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\schoolofnet\zf\zf3\module\User\src" />
-      <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Form" />
-      <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Model" />
-      <recent name="D:\schoolofnet\zf\zf3\module\Blog\src" />
-      <recent name="D:\schoolofnet\zf\zf3\module\Blog\src\Controller" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.User">
@@ -397,37 +749,38 @@
       <option name="presentableId" value="Default" />
       <updated>1489198610893</updated>
       <workItem from="1489198613347" duration="10019000" />
-      <workItem from="1489253742085" duration="30292000" />
+      <workItem from="1489253742085" duration="30984000" />
+      <workItem from="1489447363927" duration="17123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40311000" />
+    <option name="totallyTimeSpent" value="58126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="ReST Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63502455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="ReST Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.63502455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -463,168 +816,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/Core_c.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="573" column="20" lean-forward="false" selection-start-line="573" selection-start-column="20" selection-end-line="573" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="769" column="27" lean-forward="false" selection-start-line="769" selection-start-column="27" selection-end-line="769" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/load_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35638728-9f98-4b14-b94a-f8f3790963bd/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Model/Factory/PostTableGatewayFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="e#122#142#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-validator/src/Digits.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/InputFilter/PostInputFilter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-          <folding>
-            <element signature="e#120#147#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/Factory/PostFormFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <element signature="e#37#60#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/PostForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding>
-            <element signature="e#30#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/modules.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#304#333#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/User/view/user/auth/logout.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/User/src/Form/LoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="e#29#51#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,75 +831,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/User/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="53" column="32" lean-forward="false" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/User/view/user/auth/login.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#692#699#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/User/src/Service/Factory/AuthenticationServiceFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="e#41#82#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/User/src/Controller/Factory/AuthControllerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#43#84#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/User/src/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-          <folding>
-            <element signature="e#24#59#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/Factory/BlogControllerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,70 +856,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="37" column="2" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="37" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/CommentForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#30#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/src/Model/Factory/CommentTableFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="e#121#149#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-          <folding>
-            <element signature="e#24#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/post/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/6e08eca7/35638728-9f98-4b14-b94a-f8f3790963bd/users">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -797,7 +868,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -810,7 +880,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -835,32 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-          <folding>
-            <element signature="e#127#162#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/src/Model/Comment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -877,23 +920,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="103" column="61" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="103" selection-end-column="61" />
-          <folding>
-            <element signature="e#36#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/src/Model/CommentTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="19" column="65" lean-forward="false" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-          <folding>
-            <element signature="e#31#80#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -901,16 +932,331 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="e#122#145#0#PHP" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/development.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/6e08eca7/35638728-9f98-4b14-b94a-f8f3790963bd/users">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/doctrine.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/development.config.php.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/modules.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Blog/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="36" column="56" lean-forward="false" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        <state relative-caret-position="455">
+          <caret line="76" column="55" lean-forward="false" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="55" />
+          <folding>
+            <element signature="e#24#73#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/development.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/User/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+          <folding>
+            <element signature="e#24#73#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/User/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-673">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Fixture/PostFixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="e#33#54#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/User/src/Fixture/UserFixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#33#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Fixture/CommentFixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#33#57#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="46" column="75" lean-forward="false" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/doctrine.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#7#39#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/User/src/Service/Factory/AuthenticationServiceFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="77" lean-forward="false" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/User/src/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="67" lean-forward="true" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/User/src/Controller/Factory/AuthControllerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/PostForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/Factory/PostFormFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#37#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/Factory/BlogControllerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/post/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="108" lean-forward="false" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="72" lean-forward="false" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+          <folding>
+            <element signature="e#31#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Entity/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="e#35#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/CommentForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#30#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Form/Factory/CommentFormFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#37#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Controller/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="e#119#145#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/src/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>

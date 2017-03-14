@@ -1,4 +1,8 @@
-<?php $this->headTitle('blog'); ?>
+<?php
+/**@var \Blog\Entity\Post $post */
+/**@var \Blog\Entity\Comment $comment */
+$this->headTitle('blog');
+?>
 <?php
 $content = $commentForm->get('content');
 $content->setAttribute('class', 'form-control');
@@ -6,15 +10,15 @@ $content->setAttribute('class', 'form-control');
 $submit = $commentForm->get('submit');
 $submit->setAttribute('class', 'btn btn-primary');
 
-$commentForm->setAttribute('action', $this->url('site-post', ['action' => 'addComment', 'id' => $post->id]));
+$commentForm->setAttribute('action', $this->url('site-post', ['action' => 'addComment', 'id' => $post->getId()]));
 $commentForm->prepare();
 
 ?>
 <div class="row">
     <div class="thumbnail">
         <div class="caption">
-            <h2><?= $this->escapeHtml($post->title); ?></h2>
-            <p><?= $post->content; ?></p>
+            <h2><?= $this->escapeHtml($post->getTitle()); ?></h2>
+            <p><?= $post->getContent(); ?></p>
         </div>
     </div>
 
@@ -32,9 +36,9 @@ $commentForm->prepare();
         <br>
         <br>
         <ul>
-            <?php foreach ($post->comments as $comment): ?>
+            <?php foreach ($post->getComments()->toArray() as $comment): ?>
                 <li>
-                    <?= $this->escapeHtml($comment->content); ?>
+                    <?= $comment->getContent(); ?>
                 </li>
             <?php endforeach; ?>
         </ul>

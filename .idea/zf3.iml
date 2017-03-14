@@ -14,9 +14,22 @@
       <sourceFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-developer-tools/src" isTestSource="false" packagePrefix="ZendDeveloperTools" />
       <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/module/Blog/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeedu/zend-doctrine-fixture" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeedu/zendexpr-doctrine-fixture" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/data-fixtures" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/doctrine-module" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/doctrine-orm-module" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/orm" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-common" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-docblock" />
@@ -42,9 +55,13 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/resource-operations" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-authentication" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-cache" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-code" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-component-installer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-config" />
@@ -71,6 +88,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-flashmessenger" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-identity" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-prg" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-paginator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-psr7bridge" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-router" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-servicemanager" />
@@ -107,9 +125,22 @@
     <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/codeedu/zend-doctrine-fixture" />
+          <root url="file://$MODULE_DIR$/vendor/codeedu/zendexpr-doctrine-fixture" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/cache" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/collections" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/common" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/data-fixtures" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/doctrine-module" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/doctrine-orm-module" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/orm" />
           <root url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
           <root url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-common" />
           <root url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-docblock" />
@@ -135,9 +166,13 @@
           <root url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/resource-operations" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
           <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-authentication" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-cache" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-code" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-component-installer" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-config" />
@@ -164,6 +199,7 @@
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-flashmessenger" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-identity" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-prg" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-paginator" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-psr7bridge" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-router" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-servicemanager" />
@@ -174,12 +210,24 @@
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-validator" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-view" />
           <root url="file://$MODULE_DIR$/vendor/zfcampus/zf-development-mode" />
-          <root url="jar://$APPLICATION_HOME_DIR$/plugins/phpspec/lib/phpspec.jar!/phpspec_stub" />
         </CLASSES>
         <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/codeedu/zend-doctrine-fixture" />
+          <root url="file://$MODULE_DIR$/vendor/codeedu/zendexpr-doctrine-fixture" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/cache" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/collections" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/common" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/data-fixtures" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/doctrine-module" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/doctrine-orm-module" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/orm" />
           <root url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
           <root url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-common" />
           <root url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-docblock" />
@@ -205,9 +253,13 @@
           <root url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/resource-operations" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
           <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-authentication" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-cache" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-code" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-component-installer" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-config" />
@@ -234,6 +286,7 @@
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-flashmessenger" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-identity" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-plugin-prg" />
+          <root url="file://$MODULE_DIR$/vendor/zendframework/zend-paginator" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-psr7bridge" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-router" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-servicemanager" />
@@ -244,7 +297,6 @@
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-validator" />
           <root url="file://$MODULE_DIR$/vendor/zendframework/zend-view" />
           <root url="file://$MODULE_DIR$/vendor/zfcampus/zf-development-mode" />
-          <root url="jar://$APPLICATION_HOME_DIR$/plugins/phpspec/lib/phpspec.jar!/phpspec_stub" />
         </SOURCES>
       </library>
     </orderEntry>

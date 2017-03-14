@@ -20,7 +20,7 @@ CREATE TABLE users
 (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   username VARCHAR(100) UNIQUE NOT NULL,
-  password VARCAHR(60) NOT NULL,
+  password VARCHAR(60) NOT NULL,
   full_name VARCHAR(150) NOT NULL
 );
 INSERT INTO users (username, password, full_name)  VALUES ('lamarques@lamarques.com.br', '$2y$10$NEgGrXll4nqLLiRY94ueJua02eryS.X7cQnPCKve2HiBknq1P2Wja', 'Rogerio Lamaruqes');
